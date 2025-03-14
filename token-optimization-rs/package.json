@@ -1,0 +1,20 @@
+{
+  "name": "token-optimization-rs",
+  "version": "1.0.0",
+  "main": "index.node",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "token-optimization-rs",
+    "triples": {
+      "defaults": true,
+      "additional": ["x86_64-pc-windows-msvc"]
+    }
+  },
+  "scripts": {
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.16.1"
+  }
+}

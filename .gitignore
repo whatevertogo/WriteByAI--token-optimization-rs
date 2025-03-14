@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+debug/
+target/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.node
+.env
+.env.*
+
+# Build artifacts
+token-optimization-rs/target/
+token-optimization-rs/*.node
+
+# Test files
+coverage/
+.nyc_output/
+
+# Config files that should be customized by users
+/settings/*.json
+cline_mcp_settings.json
+
+# OS specific
+Thumbs.db
+.DS_Store
+desktop.ini
